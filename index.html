@@ -1,130 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>PACK'R Technical Training</title>
-
-<style>
-
-body{
-    font-family: Arial, sans-serif;
-    background:#f4f4f4;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
-
-.container{
-    max-width:1200px;
-    margin:auto;
-    padding:40px 20px;
-}
-
-h1{
-    font-size:56px;
-    margin-bottom:10px;
-    color:#111;
-}
-
-.subtitle{
-    font-size:22px;
-    color:#666;
-    margin-bottom:40px;
-}
-
-.buttons{
-    margin-bottom:40px;
-}
-
-.button{
-    display:inline-block;
-    padding:18px 36px;
-    margin:10px;
-    background:#ff6600;
-    color:white;
-    text-decoration:none;
-    border-radius:8px;
-    font-size:18px;
-    font-weight:bold;
-    transition:0.2s;
-}
-
-.button:hover{
-    opacity:0.9;
-}
-
-.pdf-container{
-    width:100%;
-    height:900px;
-    background:white;
-    border-radius:16px;
-    overflow:hidden;
-    box-shadow:0 4px 20px rgba(0,0,0,0.1);
-}
-
-iframe{
-    width:100%;
-    height:100%;
-    border:none;
-}
-
-.footer{
-    margin-top:25px;
-    color:#666;
-    font-size:16px;
-}
-
-.footer a{
-    color:#ff6600;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACK'R Technical Training</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; text-align: center; }
+        .container { max-width: 1200px; margin: auto; padding: 40px 20px; }
+        h1 { font-size: 56px; margin-bottom: 10px; color: #111; }
+        .subtitle { font-size: 22px; color: #666; margin-bottom: 40px; }
+        .buttons { margin-bottom: 40px; }
+        .button { display: inline-block; padding: 18px 36px; margin: 10px; background: #ff6600; color: white; text-decoration: none; border-radius: 8px; font-size: 18px; font-weight: bold; transition: 0.2s; }
+        .button:hover { opacity: 0.9; }
+        .pdf-container { width: 100%; height: 900px; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+        object { width: 100%; height: 100%; border: none; }
+        .footer { margin-top: 25px; color: #666; font-size: 16px; }
+        .footer a { color: #ff6600; text-decoration: none; font-weight: bold; }
+    </style>
 </head>
-
 <body>
-
-<div class="container">
-
-<h1>PACK'R Technical Training</h1>
-
-<div class="subtitle">
-Reduce downtime. Standardize performance.
-</div>
-
-<div class="buttons">
-
-<a class="button"
-href="TPBCompress.pdf"
-target="_blank">
-VIEW TRAINING GUIDE
-</a>
-
-<a class="button"
-href="mailto:service.usa@packr.com?subject=PACK'R%20Training%20Inquiry">
-REQUEST TRAINING
-</a>
-
-</div>
-
-<div class="pdf-container">
-
-<iframe src="TPBCompress.pdf"></iframe>
-
-</div>
-
-<div class="footer">
-Can't open the PDF? Contact us directly at
-<a href="mailto:service.usa@packr.com">
-service.usa@packr.com
-</a>
-</div>
-
-</div>
-
+    <div class="container">
+        <h1>PACK'R Technical Training</h1>
+        <div class="subtitle">Reduce downtime. Standardize performance.</div>
+        
+        <div class="buttons">
+            <a class="button" href="./TPBCompress.pdf" target="_blank">VIEW TRAINING GUIDE</a>
+            <a class="button" href="mailto:service.usa@packr.com?subject=PACK'R%20Training%20Inquiry">REQUEST TRAINING</a>
+        </div>
+        
+        <div class="pdf-container">
+            <object data="./TPBCompress.pdf" type="application/pdf">
+                <p>Votre navigateur ne peut pas afficher ce PDF. <a href="./TPBCompress.pdf">Cliquez ici pour le télécharger.</a></p>
+            </object>
+        </div>
+        
+        <div class="footer">
+            Can't open the PDF? Contact us directly at <a href="mailto:service.usa@packr.com">service.usa@packr.com</a>
+        </div>
+    </div>
 </body>
 </html>
